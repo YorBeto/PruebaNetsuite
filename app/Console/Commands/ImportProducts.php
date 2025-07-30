@@ -15,7 +15,7 @@ class ImportProducts extends Command
         $this->info('Iniciando simulación de importación...');
 
         $batchSize = 400; // insertamos 1000 por vez para no saturar memoria
-        $total = 30000;
+        $total = 1000;
 
         $products = [];
 
